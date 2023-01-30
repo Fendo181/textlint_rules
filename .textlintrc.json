@@ -1,7 +1,7 @@
 {
   "filters": {},
   "rules": {
-    "no-todo": true,
+    // シンプルなユーザー辞書をもとに校正する
     "ja-simple-user-dictionary": {
       "dictionary": [
         {
@@ -13,6 +13,12 @@
         }
       ]
     },
-    "preset-ja-technical-writing": true
+    // 技術文書向けのtextlintルールプリセット
+    "preset-ja-technical-writing": {
+      // 文字の長さは110まで
+      "sentence-length": {
+        "max": 120
+      }
+    }
   }
 }
