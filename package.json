@@ -1,0 +1,20 @@
+{
+  "name": "textlint_rule",
+  "version": "1.0.0",
+  "description": "### Getting Started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Fendo181/textlint_rule.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fendo181/textlint_rule/issues"
+  },
+  "homepage": "https://github.com/Fendo181/textlint_rule#readme"
+}
