@@ -1,6 +1,18 @@
 {
   "filters": {},
   "rules": {
-    "no-todo": true
+    "no-todo": true,
+    "ja-simple-user-dictionary": {
+      "dictionary": [
+        {
+          "pattern": "typo"
+        },
+        {
+          "pattern": "ふいんき",
+          "message": "「ふいんき」ではなく「ふんいき」です。"
+        }
+      ]
+    },
+    "preset-ja-technical-writing": true
   }
 }
