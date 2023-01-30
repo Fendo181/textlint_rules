@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Fendo181/textlint_rule/issues"
   },
-  "homepage": "https://github.com/Fendo181/textlint_rule#readme"
+  "homepage": "https://github.com/Fendo181/textlint_rule#readme",
+  "devDependencies": {
+    "textlint": "^13.0.5"
+  }
 }
