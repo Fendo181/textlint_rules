@@ -2,6 +2,13 @@
 
 ### Getting Started
 
+既に`npm`、`node`、`textlint`がインストールされている方は以下のコマンドだけで大丈夫です。
+
+```
+npm install --save-dev
+npx textlint ./text/index.md
+```
+
 #### Setup
 
 ```
